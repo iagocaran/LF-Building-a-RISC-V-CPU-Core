@@ -1,8 +1,8 @@
-\m4_TLV_version 1d: tl-x.org
+\m5_TLV_version 1d: tl-x.org
 \SV
    // Macro providing required top-level module definition, random
    // stimulus support, and Verilator config.
-   m4_makerchip_module   // (Expanded in Nav-TLV pane.)
+   m5_makerchip_module   // (Expanded in Nav-TLV pane.)
    /* verilator lint_on WIDTH */
 
 // Visualization for calculator
@@ -233,6 +233,6 @@
    *passed = *cyc_cnt > 40;
    *failed = 1'b0;
    
-   m4+calc_viz()
+   m5+calc_viz()
 \SV
    endmodule
